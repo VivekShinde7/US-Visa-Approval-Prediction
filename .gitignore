@@ -122,9 +122,11 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+Us_env
+F:\US-Visa-Approval-Prediction\Us_env
 .env
 .venv
-env/
+US_env/
 venv/
 ENV/
 env.bak/
