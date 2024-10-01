@@ -143,7 +143,7 @@ class DataTransformation:
 
                 target_feature_test_df = target_feature_test_df.replace(
                 TargetValueMapping()._asdict()
-                )
+                ).infer_objects(copy=False)
 
                 logging.info("Got train features and test features of Testing dataset")
 
