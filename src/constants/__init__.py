@@ -2,7 +2,7 @@ import os
 from datetime import date
 from dotenv import load_dotenv
 load_dotenv()
-mongodb_url = os.environ["MONGODB_URL_CONNECTION"]
+mongodb_url = os.environ["MONGODB_URL"]
 
 DATABASE_NAME = "US_VISA"
 
